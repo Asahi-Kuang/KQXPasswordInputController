@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		604BC8861D6F066F00362B82 /* KQXPasswordInputResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 604BC8851D6F066F00362B82 /* KQXPasswordInputResource.bundle */; };
+		604BC8881D6F28AB00362B82 /* KQXPasswordInputTipView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 604BC8871D6F28AB00362B82 /* KQXPasswordInputTipView.xib */; };
+		60C625D41D6ECD4B00CEC958 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C625D31D6ECD4B00CEC958 /* AppDelegate.swift */; };
+		60C625D61D6ECD4B00CEC958 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C625D51D6ECD4B00CEC958 /* ViewController.swift */; };
+		60C625D91D6ECD4B00CEC958 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60C625D71D6ECD4B00CEC958 /* Main.storyboard */; };
+		60C625DB1D6ECD4B00CEC958 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60C625DA1D6ECD4B00CEC958 /* Assets.xcassets */; };
+		60C625DE1D6ECD4B00CEC958 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60C625DC1D6ECD4B00CEC958 /* LaunchScreen.storyboard */; };
+		60C625E91D6ECD4B00CEC958 /* KQXPasswordInput_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C625E81D6ECD4B00CEC958 /* KQXPasswordInput_SwiftTests.swift */; };
+		60C625F41D6ECD4B00CEC958 /* KQXPasswordInput_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C625F31D6ECD4B00CEC958 /* KQXPasswordInput_SwiftUITests.swift */; };
+		60C626031D6ED44D00CEC958 /* KQXPasswordInputController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C626011D6ED44D00CEC958 /* KQXPasswordInputController.swift */; };
+		60C626041D6ED44D00CEC958 /* KQXPasswordInputController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60C626021D6ED44D00CEC958 /* KQXPasswordInputController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60C625E51D6ECD4B00CEC958 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60C625C81D6ECD4B00CEC958 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60C625CF1D6ECD4B00CEC958;
+			remoteInfo = KQXPasswordInput_Swift;
+		};
+		60C625F01D6ECD4B00CEC958 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60C625C81D6ECD4B00CEC958 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60C625CF1D6ECD4B00CEC958;
+			remoteInfo = KQXPasswordInput_Swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		604BC8851D6F066F00362B82 /* KQXPasswordInputResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KQXPasswordInputResource.bundle; sourceTree = "<group>"; };
+		604BC8871D6F28AB00362B82 /* KQXPasswordInputTipView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KQXPasswordInputTipView.xib; sourceTree = "<group>"; };
+		60C625D01D6ECD4B00CEC958 /* KQXPasswordInput_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KQXPasswordInput_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60C625D31D6ECD4B00CEC958 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		60C625D51D6ECD4B00CEC958 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		60C625D81D6ECD4B00CEC958 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60C625DA1D6ECD4B00CEC958 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60C625DD1D6ECD4B00CEC958 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		60C625DF1D6ECD4B00CEC958 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60C625E41D6ECD4B00CEC958 /* KQXPasswordInput_SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KQXPasswordInput_SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60C625E81D6ECD4B00CEC958 /* KQXPasswordInput_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KQXPasswordInput_SwiftTests.swift; sourceTree = "<group>"; };
+		60C625EA1D6ECD4B00CEC958 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60C625EF1D6ECD4B00CEC958 /* KQXPasswordInput_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KQXPasswordInput_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60C625F31D6ECD4B00CEC958 /* KQXPasswordInput_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KQXPasswordInput_SwiftUITests.swift; sourceTree = "<group>"; };
+		60C625F51D6ECD4B00CEC958 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60C626011D6ED44D00CEC958 /* KQXPasswordInputController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KQXPasswordInputController.swift; sourceTree = "<group>"; };
+		60C626021D6ED44D00CEC958 /* KQXPasswordInputController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KQXPasswordInputController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60C625CD1D6ECD4B00CEC958 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60C625E11D6ECD4B00CEC958 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60C625EC1D6ECD4B00CEC958 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60C625C71D6ECD4B00CEC958 = {
+			isa = PBXGroup;
+			children = (
+				60C625D21D6ECD4B00CEC958 /* KQXPasswordInput_Swift */,
+				60C625E71D6ECD4B00CEC958 /* KQXPasswordInput_SwiftTests */,
+				60C625F21D6ECD4B00CEC958 /* KQXPasswordInput_SwiftUITests */,
+				60C625D11D6ECD4B00CEC958 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60C625D11D6ECD4B00CEC958 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60C625D01D6ECD4B00CEC958 /* KQXPasswordInput_Swift.app */,
+				60C625E41D6ECD4B00CEC958 /* KQXPasswordInput_SwiftTests.xctest */,
+				60C625EF1D6ECD4B00CEC958 /* KQXPasswordInput_SwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60C625D21D6ECD4B00CEC958 /* KQXPasswordInput_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				60C625D31D6ECD4B00CEC958 /* AppDelegate.swift */,
+				60C625D51D6ECD4B00CEC958 /* ViewController.swift */,
+				60C626011D6ED44D00CEC958 /* KQXPasswordInputController.swift */,
+				60C626021D6ED44D00CEC958 /* KQXPasswordInputController.xib */,
+				604BC8871D6F28AB00362B82 /* KQXPasswordInputTipView.xib */,
+				604BC8851D6F066F00362B82 /* KQXPasswordInputResource.bundle */,
+				60C625D71D6ECD4B00CEC958 /* Main.storyboard */,
+				60C625DA1D6ECD4B00CEC958 /* Assets.xcassets */,
+				60C625DC1D6ECD4B00CEC958 /* LaunchScreen.storyboard */,
+				60C625DF1D6ECD4B00CEC958 /* Info.plist */,
+			);
+			path = KQXPasswordInput_Swift;
+			sourceTree = "<group>";
+		};
+		60C625E71D6ECD4B00CEC958 /* KQXPasswordInput_SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				60C625E81D6ECD4B00CEC958 /* KQXPasswordInput_SwiftTests.swift */,
+				60C625EA1D6ECD4B00CEC958 /* Info.plist */,
+			);
+			path = KQXPasswordInput_SwiftTests;
+			sourceTree = "<group>";
+		};
+		60C625F21D6ECD4B00CEC958 /* KQXPasswordInput_SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				60C625F31D6ECD4B00CEC958 /* KQXPasswordInput_SwiftUITests.swift */,
+				60C625F51D6ECD4B00CEC958 /* Info.plist */,
+			);
+			path = KQXPasswordInput_SwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60C625CF1D6ECD4B00CEC958 /* KQXPasswordInput_Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60C625F81D6ECD4B00CEC958 /* Build configuration list for PBXNativeTarget "KQXPasswordInput_Swift" */;
+			buildPhases = (
+				60C625CC1D6ECD4B00CEC958 /* Sources */,
+				60C625CD1D6ECD4B00CEC958 /* Frameworks */,
+				60C625CE1D6ECD4B00CEC958 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KQXPasswordInput_Swift;
+			productName = KQXPasswordInput_Swift;
+			productReference = 60C625D01D6ECD4B00CEC958 /* KQXPasswordInput_Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60C625E31D6ECD4B00CEC958 /* KQXPasswordInput_SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60C625FB1D6ECD4B00CEC958 /* Build configuration list for PBXNativeTarget "KQXPasswordInput_SwiftTests" */;
+			buildPhases = (
+				60C625E01D6ECD4B00CEC958 /* Sources */,
+				60C625E11D6ECD4B00CEC958 /* Frameworks */,
+				60C625E21D6ECD4B00CEC958 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60C625E61D6ECD4B00CEC958 /* PBXTargetDependency */,
+			);
+			name = KQXPasswordInput_SwiftTests;
+			productName = KQXPasswordInput_SwiftTests;
+			productReference = 60C625E41D6ECD4B00CEC958 /* KQXPasswordInput_SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		60C625EE1D6ECD4B00CEC958 /* KQXPasswordInput_SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60C625FE1D6ECD4B00CEC958 /* Build configuration list for PBXNativeTarget "KQXPasswordInput_SwiftUITests" */;
+			buildPhases = (
+				60C625EB1D6ECD4B00CEC958 /* Sources */,
+				60C625EC1D6ECD4B00CEC958 /* Frameworks */,
+				60C625ED1D6ECD4B00CEC958 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60C625F11D6ECD4B00CEC958 /* PBXTargetDependency */,
+			);
+			name = KQXPasswordInput_SwiftUITests;
+			productName = KQXPasswordInput_SwiftUITests;
+			productReference = 60C625EF1D6ECD4B00CEC958 /* KQXPasswordInput_SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60C625C81D6ECD4B00CEC958 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Asahi Kuang";
+				TargetAttributes = {
+					60C625CF1D6ECD4B00CEC958 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4GG5J7J94A;
+						ProvisioningStyle = Automatic;
+					};
+					60C625E31D6ECD4B00CEC958 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4GG5J7J94A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 60C625CF1D6ECD4B00CEC958;
+					};
+					60C625EE1D6ECD4B00CEC958 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4GG5J7J94A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 60C625CF1D6ECD4B00CEC958;
+					};
+				};
+			};
+			buildConfigurationList = 60C625CB1D6ECD4B00CEC958 /* Build configuration list for PBXProject "KQXPasswordInput_Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60C625C71D6ECD4B00CEC958;
+			productRefGroup = 60C625D11D6ECD4B00CEC958 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60C625CF1D6ECD4B00CEC958 /* KQXPasswordInput_Swift */,
+				60C625E31D6ECD4B00CEC958 /* KQXPasswordInput_SwiftTests */,
+				60C625EE1D6ECD4B00CEC958 /* KQXPasswordInput_SwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60C625CE1D6ECD4B00CEC958 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C625DE1D6ECD4B00CEC958 /* LaunchScreen.storyboard in Resources */,
+				604BC8861D6F066F00362B82 /* KQXPasswordInputResource.bundle in Resources */,
+				60C625DB1D6ECD4B00CEC958 /* Assets.xcassets in Resources */,
+				604BC8881D6F28AB00362B82 /* KQXPasswordInputTipView.xib in Resources */,
+				60C626041D6ED44D00CEC958 /* KQXPasswordInputController.xib in Resources */,
+				60C625D91D6ECD4B00CEC958 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60C625E21D6ECD4B00CEC958 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60C625ED1D6ECD4B00CEC958 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60C625CC1D6ECD4B00CEC958 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C625D61D6ECD4B00CEC958 /* ViewController.swift in Sources */,
+				60C626031D6ED44D00CEC958 /* KQXPasswordInputController.swift in Sources */,
+				60C625D41D6ECD4B00CEC958 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60C625E01D6ECD4B00CEC958 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C625E91D6ECD4B00CEC958 /* KQXPasswordInput_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60C625EB1D6ECD4B00CEC958 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C625F41D6ECD4B00CEC958 /* KQXPasswordInput_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60C625E61D6ECD4B00CEC958 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60C625CF1D6ECD4B00CEC958 /* KQXPasswordInput_Swift */;
+			targetProxy = 60C625E51D6ECD4B00CEC958 /* PBXContainerItemProxy */;
+		};
+		60C625F11D6ECD4B00CEC958 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60C625CF1D6ECD4B00CEC958 /* KQXPasswordInput_Swift */;
+			targetProxy = 60C625F01D6ECD4B00CEC958 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		60C625D71D6ECD4B00CEC958 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60C625D81D6ECD4B00CEC958 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		60C625DC1D6ECD4B00CEC958 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60C625DD1D6ECD4B00CEC958 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60C625F61D6ECD4B00CEC958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		60C625F71D6ECD4B00CEC958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60C625F91D6ECD4B00CEC958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4GG5J7J94A;
+				INFOPLIST_FILE = KQXPasswordInput_Swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.asahiKuang.KQXPasswordInput-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		60C625FA1D6ECD4B00CEC958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4GG5J7J94A;
+				INFOPLIST_FILE = KQXPasswordInput_Swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.asahiKuang.KQXPasswordInput-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		60C625FC1D6ECD4B00CEC958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4GG5J7J94A;
+				INFOPLIST_FILE = KQXPasswordInput_SwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.asahiKuang.KQXPasswordInput-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KQXPasswordInput_Swift.app/KQXPasswordInput_Swift";
+			};
+			name = Debug;
+		};
+		60C625FD1D6ECD4B00CEC958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4GG5J7J94A;
+				INFOPLIST_FILE = KQXPasswordInput_SwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.asahiKuang.KQXPasswordInput-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KQXPasswordInput_Swift.app/KQXPasswordInput_Swift";
+			};
+			name = Release;
+		};
+		60C625FF1D6ECD4B00CEC958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4GG5J7J94A;
+				INFOPLIST_FILE = KQXPasswordInput_SwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.asahiKuang.KQXPasswordInput-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = KQXPasswordInput_Swift;
+			};
+			name = Debug;
+		};
+		60C626001D6ECD4B00CEC958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4GG5J7J94A;
+				INFOPLIST_FILE = KQXPasswordInput_SwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.asahiKuang.KQXPasswordInput-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = KQXPasswordInput_Swift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60C625CB1D6ECD4B00CEC958 /* Build configuration list for PBXProject "KQXPasswordInput_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60C625F61D6ECD4B00CEC958 /* Debug */,
+				60C625F71D6ECD4B00CEC958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60C625F81D6ECD4B00CEC958 /* Build configuration list for PBXNativeTarget "KQXPasswordInput_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60C625F91D6ECD4B00CEC958 /* Debug */,
+				60C625FA1D6ECD4B00CEC958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60C625FB1D6ECD4B00CEC958 /* Build configuration list for PBXNativeTarget "KQXPasswordInput_SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60C625FC1D6ECD4B00CEC958 /* Debug */,
+				60C625FD1D6ECD4B00CEC958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60C625FE1D6ECD4B00CEC958 /* Build configuration list for PBXNativeTarget "KQXPasswordInput_SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60C625FF1D6ECD4B00CEC958 /* Debug */,
+				60C626001D6ECD4B00CEC958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60C625C81D6ECD4B00CEC958 /* Project object */;
+}
